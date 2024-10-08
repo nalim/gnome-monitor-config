@@ -218,8 +218,8 @@ cc_display_config_manager_initable_init (GInitable *initable,
 
   proxy = cc_dbus_display_config_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
                                                          G_DBUS_PROXY_FLAGS_NONE,
-                                                         "org.gnome.Mutter.DisplayConfig",
-                                                         "/org/gnome/Mutter/DisplayConfig",
+                                                         "org.cinnamon.Muffin.DisplayConfig",
+                                                         "/org/cinnamon/Muffin/DisplayConfig",
                                                          NULL, error);
   if (!proxy)
     return FALSE;

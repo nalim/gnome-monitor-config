@@ -13,8 +13,8 @@ src = [ 'gmc-display-config.c',
 ]
 
 gen_src = gnome.gdbus_codegen('gmc-dbus-display-config',
-                              'org.cinnamon.Muffin.DisplayConfig.xml',
-                              interface_prefix: 'org.cinnamon.Muffin.',
+                              'org.gnome.Mutter.DisplayConfig.xml',
+                              interface_prefix: 'org.gnome.Mutter.',
                               namespace: 'CcDbus')
 src += gen_src
 
